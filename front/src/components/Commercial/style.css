@@ -1,0 +1,38 @@
+.container {
+  background-color: lightgray;
+  height: 450px;
+  transition: all 0.1s;
+  flex: 1 0 25%;
+}
+
+.template-1 {
+  display: flex;
+  background-color: aquamarine;
+  flex-direction: column;
+  height: 100%;
+}
+.template-2 {
+  display: flex;
+  background-color: lightblue;
+  flex-direction: column;
+  height: 100%;
+}
+.template-3 {
+  display: flex;
+  background-color: lightpink;
+  flex-direction: column;
+  height: 100%;
+}
+.title-1,
+.title-2,
+.title-3 {
+  font-size: 25px;
+  color: white;
+}
+.images {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}

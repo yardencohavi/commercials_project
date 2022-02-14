@@ -1,0 +1,29 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@admin-bro/express": "^3.1.0",
+    "@admin-bro/mongoose": "^1.1.0",
+    "admin-bro": "^4.0.1",
+    "admin-bro-expressjs": "^2.1.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "io": "^1.0.4",
+    "mongodb": "^4.3.0",
+    "mongoose": "^6.1.5",
+    "nodemodule": "^0.3.0",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1",
+    "websocket": "^1.0.34"
+  }
+}
